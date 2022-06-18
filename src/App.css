@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.CoffeeList {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.CoffeeList li {
+  width: 450px;
+  aspect-ratio: 1/1;
+  padding: 20px;
+  border: 2px solid #fff;
+}
