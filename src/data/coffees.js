@@ -8,6 +8,8 @@ const coffees = [
         weight: 250,
         price: 55,
         imgURL: "https://nieczapla.pl/wp-content/uploads/2022/05/01_Nieczapla-Etiopia-Gedeb-Wele-Jego-Filtr-v60-400x400.jpg",
+        isNew: true,
+
     },
     {
         id: nanoid(),
@@ -15,6 +17,7 @@ const coffees = [
         weight: 250,
         price: 50,
         imgURL: null,
+        isNew: false,
     },
     {
         id: nanoid(),
@@ -22,6 +25,7 @@ const coffees = [
         weight: 250,
         price: 53,
         imgURL: null,
+        isNew: false,
     },
     {
         id: nanoid(),
@@ -29,6 +33,7 @@ const coffees = [
         weight: 250,
         price: 42,
         imgURL: null,
+        isNew: false,
     },
  ];
 
